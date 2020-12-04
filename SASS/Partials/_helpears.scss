@@ -1,6 +1,7 @@
 .wrapper{
   margin: 0 auto;
-  max-width: 1600px;
+  width: 1600px;
+  max-width: 100%;
 }
 .clearfix::after {
   content: "";
@@ -10,6 +11,5 @@
 hr{
   border: 2px solid;
   border-radius: 20px;
-  margin-left: 770px;
-  margin-right: 770px;
+  margin: 40px 770px 40px 770px;
 }

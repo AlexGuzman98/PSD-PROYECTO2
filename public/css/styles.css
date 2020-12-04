@@ -314,21 +314,44 @@ template {
 
 .main-content {
   text-align: center; }
+  .main-content img {
+    max-width: 100%; }
   .main-content h3 {
+    margin-top: 50px;
     font-family: "Raleway";
     font-size: 2em; }
   .main-content h1 {
+    margin-top: -30px;
     font-family: "Montserrat";
     font-size: 3em; }
   .main-content h4 {
     font-family: "Raleway"; }
   .main-content p {
+    margin: 0 300px 0 300px;
     font-family: "Raleway";
-    font-size: 1em; }
+    font-size: 1.135em;
+    padding-bottom: 50px; }
+
+.slider {
+  max-width: 100%; }
+
+.info-slider-pic {
+  float: left;
+  max-width: 50%;
+  padding: 100px 0 87px 0;
+  background-color: #ffeae2; }
+  .info-slider-pic h4 {
+    font-size: 3em;
+    text-align: start;
+    line-height: 1.4; }
+  .info-slider-pic img {
+    max-width: 50%;
+    float: right; }
 
 .wrapper {
   margin: 0 auto;
-  max-width: 1600px; }
+  width: 1600px;
+  max-width: 100%; }
 
 .clearfix::after {
   content: "";
@@ -338,5 +361,4 @@ template {
 hr {
   border: 2px solid;
   border-radius: 20px;
-  margin-left: 770px;
-  margin-right: 770px; }
+  margin: 40px 770px 40px 770px; }
