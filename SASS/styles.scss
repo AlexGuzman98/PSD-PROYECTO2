@@ -1,1 +1,12 @@
-
+// Normalize
+@import 'library/normalize';
+// Config
+@import 'config/mixin';
+@import 'config/settings';
+// Partial
+@import 'partials/header';
+@import 'partials/maincontent';
+@import 'partials/reasontobehappy';
+@import 'partials/buyposterprints';
+@import 'partials/footer';
+@import 'partials/helpears';

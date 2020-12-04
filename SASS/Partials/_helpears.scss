@@ -1,0 +1,15 @@
+.wrapper{
+  margin: 0 auto;
+  max-width: 1600px;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+hr{
+  border: 2px solid;
+  border-radius: 20px;
+  margin-left: 770px;
+  margin-right: 770px;
+}
