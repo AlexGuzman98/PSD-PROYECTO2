@@ -326,11 +326,18 @@ template {
     font-size: 3em; }
   .main-content h4 {
     font-family: "Raleway"; }
-  .main-content p {
-    margin: 0 300px 0 300px;
-    font-family: "Raleway";
-    font-size: 1.135em;
-    padding-bottom: 50px; }
+
+.linea {
+  max-width: 100%;
+  height: 1px;
+  background-color: black;
+  margin: 0 750px 50px 750px; }
+
+.info-content p {
+  margin: 0 100px 0 100px;
+  font-family: "Raleway";
+  font-size: 1.135em;
+  padding-bottom: 50px; }
 
 .slider {
   max-width: 100%; }
@@ -338,15 +345,16 @@ template {
 .info-slider-pic {
   float: left;
   max-width: 50%;
-  padding: 100px 0 87px 0;
+  padding-bottom: 300px;
   background-color: #ffeae2; }
   .info-slider-pic h4 {
-    font-size: 3em;
+    font-size: 2.5em;
     text-align: start;
     line-height: 1.4; }
   .info-slider-pic img {
     max-width: 50%;
-    float: right; }
+    float: right;
+    display: block; }
 
 .wrapper {
   margin: 0 auto;
@@ -359,6 +367,7 @@ template {
   display: table; }
 
 hr {
+  max-width: 100%;
   border: 2px solid;
   border-radius: 20px;
   margin: 40px 770px 40px 770px; }
