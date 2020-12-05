@@ -44,4 +44,18 @@ h2{
   font-family: $fontRaleway;
   padding:10px 8px 0px 40px;
 }
-
+.contenido-hands{
+  background-image: url("/img/hand.jpg");
+  background-size: cover;
+}
+.contenido-hands {
+    text-align: center;
+    padding: 100px 400px 200px 400px;
+    color: white;
+  p{
+    font-size: 2em;
+  }
+  a{
+    color: white
+  }
+}

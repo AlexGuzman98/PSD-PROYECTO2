@@ -401,6 +401,19 @@ h2 {
   font-family: "Raleway";
   padding: 10px 8px 0px 40px; }
 
+.contenido-hands {
+  background-image: url("/img/hand.jpg");
+  background-size: cover; }
+
+.contenido-hands {
+  text-align: center;
+  padding: 100px 400px 200px 400px;
+  color: white; }
+  .contenido-hands p {
+    font-size: 2em; }
+  .contenido-hands a {
+    color: white; }
+
 .wrapper {
   margin: 0 auto;
   width: 1600px;
