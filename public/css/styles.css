@@ -356,6 +356,51 @@ template {
     float: right;
     display: block; }
 
+h2 {
+  font-size: 3em;
+  font-family: "Montserrat"; }
+
+.btn-espacio {
+  padding: 50px 0 100px 0; }
+
+.btn-black {
+  font-size: 1.5em;
+  font-weight: 300;
+  font-family: "Alegreya Sans";
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+  margin: 4% 12% 8.5% 43.313%; }
+
+.btn-black:hover {
+  background-color: black;
+  color: white; }
+
+.content-happy {
+  padding: 0 50px 0 50px; }
+
+.content-happy h4 {
+  font-family: "Raleway";
+  padding: 10px 8px 0px 40px; }
+
+.box-1 {
+  float: left;
+  width: 100%; }
+
+.box-info {
+  width: 49%;
+  height: 180px;
+  float: left;
+  border: solid 1px #ccc; }
+
+.box-info p {
+  font-family: "Raleway";
+  padding: 10px 8px 0px 40px; }
+
 .wrapper {
   margin: 0 auto;
   width: 1600px;
