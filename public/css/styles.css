@@ -310,7 +310,18 @@ template {
 .menu {
   float: right;
   list-style: none;
-  text-decoration: none; }
+  text-decoration: underline;
+  margin: 120px 150px 10px 0px;
+  font-size: 2em;
+  color: white; }
+
+.header {
+  position: relative;
+  background-image: url("/img/bg.png");
+  background-size: cover; }
+
+.logo {
+  margin: 100px 0 0 150px; }
 
 .main-content {
   text-align: center; }
@@ -414,6 +425,22 @@ h2 {
   .contenido-hands a {
     color: white; }
 
+.contente-posters {
+  background-color: #F7F4F4;
+  padding-top: 10px;
+  padding-bottom: 100px; }
+  .contente-posters h2 {
+    margin-left: 120px; }
+
+.images-content {
+  max-width: 100%;
+  margin: 0 0 0 100px; }
+  .images-content img {
+    max-width: 50%;
+    padding: 25px;
+    display: block;
+    float: left; }
+
 .wrapper {
   margin: 0 auto;
   width: 1600px;
@@ -424,8 +451,6 @@ h2 {
   clear: both;
   display: table; }
 
-hr {
-  max-width: 100%;
-  border: 2px solid;
-  border-radius: 20px;
-  margin: 40px 770px 40px 770px; }
+li, a {
+  text-decoration: none;
+  list-style-type: none; }

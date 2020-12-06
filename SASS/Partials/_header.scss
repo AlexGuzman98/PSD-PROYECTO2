@@ -1,6 +1,16 @@
 .menu{
   float: right;
   list-style: none;
-  text-decoration: none;
+  text-decoration: underline;
+  margin: 120px 150px 10px 0px;
+  font-size: 2em;
+  color: white;
 }
-
+.header{
+  position: relative;
+  background-image: url("/img/bg.png");
+  background-size: cover;
+}
+.logo{
+  margin: 100px 0 0 150px;
+}

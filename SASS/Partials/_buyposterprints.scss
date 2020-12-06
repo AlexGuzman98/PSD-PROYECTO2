@@ -1,1 +1,18 @@
-
+.contente-posters{
+  background-color:#F7F4F4;
+  padding-top: 10px;
+  padding-bottom: 100px;
+  h2{
+    margin-left: 120px;
+  }
+}
+.images-content{
+  max-width: 100%;
+  margin: 0 0 0 100px ;
+  img{
+    max-width: 50%;
+    padding: 25px;
+    display: block;
+    float: left;
+  }
+}
