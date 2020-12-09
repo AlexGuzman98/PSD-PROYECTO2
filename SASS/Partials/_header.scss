@@ -1,17 +1,44 @@
 .menu{
   float: right;
   list-style: none;
-  text-decoration: underline;
-  margin: 120px 150px 10px 0px;
-  font-size: 2em;
+  border: 2px solid white;
+  border-right: none;
+  border-left: none;
+  font-size: 2.2em;
   color: white;
   font-family: $fontMonserrat;
 }
+.menu:hover{
+  color: black;
+  border-color: black;
+}
 .header{
-  position: relative;
+  max-width: 100%;
   background-image: url("/img/bg.png");
   background-size: cover;
+
 }
-.logo{
-  margin: 100px 0 0 150px;
+.header-logos{
+  max-width: 100%;
+  padding: 3.125% 0% 52.563% 0%;
+
+  p{
+    margin: 20px 100px 0 0;
+  }
 }
+.header-logos h2{
+  float: left;
+  font-family: $fontMonserrat;
+}
+.header-logos h2 a{
+  color:white;
+  text-decoration: none;
+}
+.header-logos h2{
+  font-size: 40px;
+  background-color: black;
+  color: white;
+  padding: 1%;
+  margin-left: 8%;
+}
+
