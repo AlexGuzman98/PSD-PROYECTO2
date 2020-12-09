@@ -3,8 +3,8 @@
  padding-left:100px ;
 }
 .footer{
-  padding-right: 100px;
-  padding-left: 10px;
+  background-color: white;
+  padding: 0 10px 500px 100px;
   font-family: $fontMonserrat;
   font-size: 1.3em;
   h5{
@@ -51,11 +51,9 @@ button:hover{
   float: left;
 }
 .foot-abajo{
+  padding: 50px 0 50px 0;
   max-width: 100%;
   background-color: #F7F4F4;
-  margin: auto;
-  padding: 30px;
-  width: 1600px;
   li{
     margin-top: -20px;
     float: right;

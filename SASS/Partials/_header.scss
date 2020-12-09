@@ -7,6 +7,7 @@
   font-size: 2.2em;
   color: white;
   font-family: $fontMonserrat;
+  margin: 50px 150px 0 0;
 }
 .menu:hover{
   color: black;
@@ -16,15 +17,10 @@
   max-width: 100%;
   background-image: url("/img/bg.png");
   background-size: cover;
-
 }
 .header-logos{
   max-width: 100%;
-  padding: 3.125% 0% 52.563% 0%;
-
-  p{
-    margin: 20px 100px 0 0;
-  }
+  padding: 3% 0% 52% 0%;
 }
 .header-logos h2{
   float: left;
@@ -39,6 +35,6 @@
   background-color: black;
   color: white;
   padding: 1%;
-  margin-left: 8%;
+  margin-left: 10%;
 }
 

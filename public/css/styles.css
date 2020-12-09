@@ -315,7 +315,8 @@ template {
   border-left: none;
   font-size: 2.2em;
   color: white;
-  font-family: "Montserrat"; }
+  font-family: "Montserrat";
+  margin: 50px 150px 0 0; }
 
 .menu:hover {
   color: black;
@@ -328,9 +329,7 @@ template {
 
 .header-logos {
   max-width: 100%;
-  padding: 3.125% 0% 52.563% 0%; }
-  .header-logos p {
-    margin: 20px 100px 0 0; }
+  padding: 3% 0% 52% 0%; }
 
 .header-logos h2 {
   float: left;
@@ -345,7 +344,7 @@ template {
   background-color: black;
   color: white;
   padding: 1%;
-  margin-left: 8%; }
+  margin-left: 10%; }
 
 .main-content {
   text-align: center; }
@@ -394,10 +393,9 @@ template {
 
 .frase {
   font-family: "Montserrat";
-  line-height: 50px;
-  font-size: 1.8em;
-  padding: 150px 200px  50px 100px;
-  text-align: start; }
+  font-size: 2em;
+  padding: 100px 200px  0px 100px;
+  text-align: left; }
 
 .nombre {
   font-size: 1.5em;
@@ -450,7 +448,8 @@ h2 {
 
 .contenido-hands {
   background-image: url("/img/hand.jpg");
-  background-size: cover; }
+  background-size: cover;
+  display: block; }
 
 .contenido-hands h2 {
   color: white;
@@ -466,6 +465,7 @@ h2 {
   color: #9393ee; }
 
 .contente-posters {
+  margin: 0 auto;
   background-color: #F7F4F4;
   padding-top: 10px;
   padding-bottom: 100px; }
@@ -486,8 +486,8 @@ h2 {
   padding-left: 100px; }
 
 .footer {
-  padding-right: 100px;
-  padding-left: 10px;
+  background-color: white;
+  padding: 0 10px 500px 100px;
   font-family: "Montserrat";
   font-size: 1.3em; }
   .footer h5 {
@@ -531,11 +531,9 @@ button:hover {
   float: left; }
 
 .foot-abajo {
+  padding: 50px 0 50px 0;
   max-width: 100%;
-  background-color: #F7F4F4;
-  margin: auto;
-  padding: 30px;
-  width: 1600px; }
+  background-color: #F7F4F4; }
   .foot-abajo li {
     margin-top: -20px;
     float: right;
